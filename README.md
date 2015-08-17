@@ -1,11 +1,11 @@
-## add_hash.py program
+## AddHash program
 
 Purpose: to make a unique filename for a PDF, starting with a LaTeX file. The goal is to prevent anyone from guessing how to find alternate versions of the document in the same directory.
 
 To set up:
 
  1. Install Python 3, `pip` for Python 3,  and `pyvenv`.
- 1. Install whatever you need for LaTeX. Here we assume you are using Xelatex; if you use `pdflatex` or `lualatex`, replace `xelatex` in the following line of code in `add_hash.py`:
+ 1. Install whatever you need for LaTeX. Here we assume you are using Xelatex; if you use `pdflatex` or `lualatex`, replace `xelatex` in the following line of code in [`add_hash.py`](add_hash.py#L28):
 
     ```python
     subprocess.call(['xelatex', new_filename], stdout=subprocess.DEVNULL)
