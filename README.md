@@ -28,6 +28,7 @@ To set up:
     2. delete all auxiliary tex files.
 
  1. If a PDF with the expected filename already exists, the program will exit and the files will be untouched.
+ 1. Here is an example file: https://brannerchinese.com/resumes/resume_20150816_458973cad2d3d8aca53d0ea0932ef7bac82b728dfe2a32552c16dbbb2f197251.pdf
 
 [end]
 
