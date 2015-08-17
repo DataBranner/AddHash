@@ -5,6 +5,12 @@ Purpose: to make a unique filename for a PDF, starting with a LaTeX file. The go
 To set up:
 
  1. Install Python 3, `pip` for Python 3,  and `pyvenv`.
+ 1. Install whatever you need for LaTeX. Here we assume you are using Xelatex; if you use `pdflatex` or `lualatex`, replace `xelatex` in the following line of code in `add_hash.py`:
+
+    ```python
+    subprocess.call(['xelatex', new_filename], stdout=subprocess.DEVNULL)
+    ```
+
  1. Create and populate a Python virtual environment (one-time step):
 
     ```bash
